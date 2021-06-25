@@ -9,7 +9,7 @@
 
 
 main {
-	display: grid;
+	display: grid; 
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 40px 400px 350px 100px;
 	column-gap: 10px;
