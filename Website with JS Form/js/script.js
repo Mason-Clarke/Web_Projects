@@ -3,7 +3,7 @@ document.getElementById("showMessageFormBtn").addEventListener("click", createFo
 function createForm(){
 
     // Disable Send Message Button
-    document.getElementById("showMessageFormBtn").disabled = true;
+    document.getElementById("showMessageFormBtn").disabled = true; 
 
     //Create and add Form element
     var yodaForm = document.createElement("form");
