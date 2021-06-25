@@ -1,0 +1,244 @@
+/*
+ * @author:	Mason Clarke
+ * @course:	CSCI 1170: Introduction to Web Design and Development
+ * @year:	2019
+ * @project:	Assignment 2
+ */
+
+@media screen and (min-width: 1401px){
+
+
+main {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 40px 400px 350px 100px;
+	column-gap: 10px;
+	grid-row-gap: 10px;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	width: 1400px;
+	margin: auto;
+}
+#top-header {
+	width: 100%;
+	height: 80px;
+	background-color: lightblue;
+}
+#top-head-items{
+	column-gap: 5px;
+	align-items: center;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: 70px repeat(11, 1fr);
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	height: 80px;
+}
+#top-head-items a {
+	text-decoration: none;
+}
+#head1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+
+}
+#head2{
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+#head3 {
+	grid-column-start: 9;
+	grid-column-end: 9;
+}
+#head4 {
+	grid-column-start: 10;
+	grid-column-end: 10;
+}
+#head5 {
+	grid-column-start: 11;
+	grid-column-end: 11;
+	
+}
+#head6 {
+	grid-column-start: 12;
+	grid-column-end: 12;
+	
+}
+
+#top-nav {
+	display: flex;
+	justify-content: space-between;
+
+
+	grid-row-start: 1;
+	grid-row-end: 1;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+#top-nav ul {
+	/*height: 20px;*/
+}
+#top-header li{
+	display: inline-block;
+}
+#top-header li a {
+	color: black;
+}
+#top-header li a:hover {
+	color: orange;
+}
+
+#photos{
+	height: 80px;
+	max-height: 160px;
+	
+}
+#logo{
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+}
+#retailer {
+	height: 50px;
+	display: flex;	
+	justify-content: space-around;
+	padding: 0px;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: black;
+	color: white;
+	width: 100%;
+
+}
+#retailer li{
+	display: flex;
+	display: inline-block;
+	justify-content: space-between;
+	margin-top: 15px;
+	align-content: center;
+	align-items: center;
+}
+#retailer li a{
+	color: white;
+	text-decoration: none;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.3em;
+}
+#retailer li a:hover {
+	color: gray;
+}
+#retailer-nav-links {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;	
+}
+
+#retailer-nav-links img {
+	height: 30px;
+	width: 30px;
+}
+footer hr{
+	width: 99.8%;
+	margin: 0px;
+}
+footer {
+	width: 100%;
+	margin: 0px;
+}
+#banner img{
+	width: 100%;
+	height: 400px;
+}
+p {
+	font-family: verdana;
+	font-size: 10pt;
+}
+header {
+	font-family: verdana;
+}
+h2 {
+	font-size: 16pt;
+	font-family: verdana;
+	margin: 0px;
+}
+h3 {
+	font-size: 12pt;
+	font-family: verdana;
+}
+#banner{
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+#projects-vid {
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+#managment-info {
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 2;
+
+}
+#reviews{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 3;
+}
+#retailer-nav {
+	grid-row-start: 4;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+#question-form {
+	grid-row-start: 4;
+	grid-row-end: 4;
+	grid-column-start: 3;
+	grid-column-end: 3;
+}
+
+#our-team {
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+#metal-choices {
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+#location-hours {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 30px 300px;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+#hours-header {
+	grid-row-start: 1;
+	grid-row-end: 1;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	margin:auto;
+}
+}
